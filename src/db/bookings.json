@@ -66,5 +66,42 @@
     "totalEstimatedCost": 100000,
     "createdAt": "2024-01-16T14:20:00Z",
     "updatedAt": "2024-01-16T14:20:00Z"
+  },
+  {
+    "id": "booking_3",
+    "referenceId": "EVT-2024-001",
+    "status": "confirmed",
+    "personalDetails": {
+      "fullName": "kundan k. khuntia",
+      "age": 28,
+      "email": "kundanKkhuntia@email.com",
+      "phone": "+91 9876543210",
+      "address": "NDA Kondhave dhavade "
+    },
+    "eventDetails": {
+      "eventType": "wedding",
+      "preferredDate": "2024-12-15",
+      "attendees": 300,
+      "budgetRange": "1L-3L",
+      "notes": "Traditional South Indian wedding ceremony"
+    },
+    "selectedServices": [
+      {
+        "serviceId": "service_1",
+        "quantity": 300,
+        "unitPrice": 800,
+        "subtotal": 240000
+      },
+      {
+        "serviceId": "service_3",
+        "quantity": 1,
+        "unitPrice": 15000,
+        "subtotal": 15000
+      }
+    ],
+    "selectedVenue": "venue_1",
+    "totalEstimatedCost": 305000,
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-15T10:30:00Z"
   }
 ]
